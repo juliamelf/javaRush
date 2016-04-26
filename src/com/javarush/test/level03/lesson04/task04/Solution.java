@@ -10,6 +10,12 @@ public class Solution
     public static void main(String[] args)
     {
         //напишите тут ваш код
+        int number = 1;
+        for(int i = 1; i <= 10; i++){
+            number = number*i;
+        }
+        System.out.println(number);
+
 
     }
 }
